@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap");
+
+canvas {
+  border: 4px solid rgba(0, 0, 0, 0.459);
+  border-radius: 10px;
+}
+
+body {
+  background: #27272a;
+}
+
+div {
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+  color: #bdbdc4;
+}
+
+ul {
+  font-size: 15px;
+  color: #e4e4e7;
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+}
+
+ul li {
+  counter-increment: steps;
+}
+
+ul li::before {
+  content: counter(steps) ")";
+  padding: 0.5rem;
+  color: rgba(7, 255, 7, 0.671);
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 10px;
+  display: inline;
+  height: 40px;
+  width: 100px;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  background-color: #b7b7bb;
+  border: 2px solid #ffffff;
+}
+
+input:hover {
+  background-color: #426618;
+  cursor: pointer;
+}

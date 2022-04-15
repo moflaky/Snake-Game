@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>JavaScript Snake Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div>JavaScript Snake Game</div>
+
+      <canvas id="grid" width="500" height="500"></canvas>
+
+      <div id="score">Length: 2</div>
+
+      <input class="submit" type="button" value="Start" id="start" />
+
+      <input class="restart" type="button" value="Restart" id="restart" />
+
+      <ul>
+        <li>Use WASD to move any direction you want.</li>
+        <li>Do not turn into the snake's body.</li>
+        <li>Length is tracked on the bottom of the game board.</li>
+      </ul>
+    </div>
+  </body>
+</html>
